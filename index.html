@@ -1,1 +1,76 @@
-<h1>Github pages test</h1>
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Delegación y COPACI</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div id="contenedor">
+      <header>
+        <h1>Servicios de la Delegación y COPACI</h1>
+        <nav id="menu1">
+          <a href="sobrenosotros.html">Historia</a>
+          <a href="Servicios.html">Servicios</a>
+          <a href="eventos.html">Eventos</a>
+          <a href="quejas.html">Quejas</a>
+        </nav>
+        <script src="script.js"></script>
+      </header>
+      <div id="reloj"></div>
+      <section id="magu">
+        <img
+          src="0552.png"
+          alt="Imagen de Magú"
+          height="300"
+          width="75%"
+        />
+
+        <h2 id="titulo">Galería Interactiva</h2>
+
+    <img 
+        id="imagenPrincipal" 
+        src="0554.png"  width="300">
+
+    <br><br>
+
+    <button id="btnCambiar">Cambiar Imagen</button>
+
+
+      </section>
+
+      <button onclick="saludar()">haz clik aquí</button>
+      <button onclick="mostrarmensaje() ">Mostar mensaje</button>
+
+      <script>
+       
+        function saludar() {
+          alert("Bienvenidos.");
+        }
+
+        function mostrarmensaje() {
+          console.log("Cliente ingresando a la pagina");
+        }
+      </script>
+
+      <footer id="piepagina">
+        <h3>Contáctanos:</h3>
+        <div>
+          <a href="https://www.facebook.com/profile.php?id=100080795625977">
+            <img src="0550.png" alt="Ícono de Facebook" />
+          </a>
+          <aside>
+            <img
+              src="whatsap.png"
+              alt="Ícono de WhatsApp"
+            />
+          </aside>
+        </div>
+        <p>Delegación y COPACI</p>
+        <h4>Déjanos tu comentario al:</h4>
+        <p>5523541665</p>
+      </footer>
+    </div>
+  </body>
+</html>
