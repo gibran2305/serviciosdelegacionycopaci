@@ -1,0 +1,68 @@
+body {
+    background-color: #ca68a4;
+    font-size: large;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#eventos {
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+/* Menú de navegación */
+#menu2 {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px 0;
+}
+
+#menu2 a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 16px;
+    transition: background 0.3s ease;
+    background-color: #5a1a5f;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+}
+
+#menu2 a:hover {
+    background-color: #7a2b7f;
+}
+
+
+#calendario img {
+    border-radius: 50px;
+    text-align: center;
+    width: 70%;
+
+}
+
+/* Pie de página */
+#piepagina {
+    background-color: #981361;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+#piepagina a {
+    display: inline-block;
+    margin: 10px;
+}
+
+#piepagina img {
+    height: 50px;
+    width: 50px;
+}

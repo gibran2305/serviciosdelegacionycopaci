@@ -1,0 +1,113 @@
+body {
+    background-color: #ca68a4;
+    font-size: large;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Contenedor principal */
+#contenedor {
+    background-color: #981361;
+    font-size: medium;
+    font-style: italic;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Menú de navegación */
+#menu1 {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px 0;
+}
+
+#menu1 a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 16px;
+    transition: background 0.3s ease;
+    background-color: #5a1a5f;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+}
+
+#menu1 a:hover {
+    background-color: #7a2b7f;
+}
+
+/* Sección Magú */
+#magu {
+    background-color: #ca68a4;
+    font-size: larger;
+    font-style: oblique;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 20px;
+    text-align: center, justify;
+}
+
+/* Imagen principal */
+#magu img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Alinear imagen del aside a la izquierda */
+#magu aside {
+    text-align: left;
+    margin-top: 20px;
+}
+
+
+
+/* Pie de página */
+#piepagina {
+    background-color: #981361;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+#piepagina a {
+    display: inline-block;
+    margin: 10px;
+}
+#piepagina img{
+    height: 50px;
+    width: 50px;
+}
+@media (max-width: 600px) {
+    header {
+        text-align: center;
+    }
+
+    #menu1 {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    #menu1 a {
+        justify-content: center;
+    }
+
+    #magu aside img {
+        text-align: center;
+    }
+
+}

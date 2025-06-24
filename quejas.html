@@ -1,0 +1,67 @@
+
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulario para la comunidad de Magu</title>
+  <link rel="stylesheet" href="quejas.css" type="text/css" />
+</head>
+<body>
+  <center>
+    <nav id="menu2">
+      <a href="index.html"> Inicio</a>
+    </nav>
+
+    <h2>Formulario de Participación Ciudadana</h2>
+    <form action="procesar.php" method="POST" id="participationForm" action="/enviar" method="post">
+
+      <input type="text" name="nombre" id="nombre" placeholder="Nombre completo" required><br>
+      <span id="nombreError" class="error-message"></span><br>
+
+      <input type="tel" name="telefono" id="telefono" placeholder="Teléfono de contacto"><br>
+      <span id="telefonoError" class="error-message"></span><br>
+
+      <input type="email" name="correo" id="correo" placeholder="Correo electrónico"><br>
+      <span id="correoError" class="error-message"></span><br>
+
+      <input type="text" name="delegacion" id="delegacion" placeholder="Delegación a la que pertenece" required><br>
+      <span id="delegacionError" class="error-message"></span><br>
+
+      <select name="tipo_solicitud" id="tipo_solicitud" required>
+        <option value="">-- Tipo de solicitud --</option>
+        <option value="reporte">Reporte</option>
+        <option value="propuesta">Propuesta</option>
+        <option value="queja">Queja</option>
+        <option value="otro">Otro</option>
+      </select><br>
+      <span id="tipoSolicitudError" class="error-message"></span><br>
+
+      <textarea name="descripcion" id="descripcion" rows="5" cols="40" placeholder="Comentarios ..." required></textarea><br>
+      <span id="descripcionError" class="error-message"></span><br>
+
+
+      <input type="submit" value="Enviar solicitud">
+    </form>
+  </center>
+ 
+  <footer id="piepagina">
+        <h3>Contáctanos:</h3>
+        <div>
+          <a href="https://www.facebook.com/profile.php?id=100080795625977">
+            <img src="0550.png" alt="Ícono de Facebook" />
+          </a>
+          <aside>
+            <img
+              src="whatsap.png"
+              alt="Ícono de WhatsApp"
+            />
+          </aside>
+        </div>
+        <p>Delegación y COPACI</p>
+        <h4>Déjanos tu comentario al:</h4>
+        <p>5523541665</p>
+      </footer>
+    </div>
+
+
+</body>
+</html>
